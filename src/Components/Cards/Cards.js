@@ -30,7 +30,7 @@ function Cards() {
             <CardItem
               src={Flyers}
               text="Booking djs sdd ggg  either by attending our treatment room or we visit your home "
-              label="Entertainers"
+              label="Entertainers" 
               path="/graphic-design"
             />          
           </ul>
@@ -40,4 +40,4 @@ function Cards() {
   );
 }
 
-export default Cards;
+  export default Cards;
