@@ -1,0 +1,62 @@
+
+.Testimonial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+
+}
+
+.swiper-containter {
+    background-color: blue;
+    height: 50%;
+    width: 700%;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+
+h1 {
+    margin: 10px;
+    padding: 20px;
+}
+.slide {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: crimson;
+   padding: 10px;
+}
+
+.slide-content {
+    background-color: white;
+    border-radius: 10px;
+    width: auto;
+    height: 400px;
+    margin: auto;
+    /* display: flex; */
+    padding: 40px;
+
+}
+
+.user-image {
+    width: 90px;
+    height: 90px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.user-photo {
+    border-radius: 45px;
+    width: 80px;
+}
+
+.user-testimonial {
+    font-size: 25px;
+}
