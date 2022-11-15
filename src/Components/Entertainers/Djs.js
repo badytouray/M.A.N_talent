@@ -9,7 +9,7 @@ import Footer from '../Footer/Footer';
 function DJS() {
   return (
     <>
-    <div class="row row-cols-1 row-cols-md-4 g-4 m-4">
+    <div class="row row-cols-1 row-cols-md-2 g-4 m-4">
   <div class="col">
     <div class="card">
       <img src={Bobbie} class="card-img-top" alt="..."/>

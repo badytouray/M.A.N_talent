@@ -31,7 +31,7 @@ function Cards() {
               src={Flyers}
               text="Booking djs sdd ggg  either by attending our treatment room or we visit your home "
               label="Entertainers" 
-              path="/graphic-design"
+              path="/artists"
             />          
           </ul>
         </div>
