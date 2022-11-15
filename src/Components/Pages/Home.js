@@ -2,15 +2,18 @@ import React from "react";
 import "../../App.css";
 import Cards from "../Cards/Cards";
 import HeroSection from "../HeroSection/HeroSection";
-import Footer from "../Footer/Footer";
-import News from "../News/News/News";
+
+import Events from "../Events/Events";
+import HarryInterview from "../ExclusiveInterviews/HarryInterview/HarryInterview";
 
 function Home() {
   return (
     <div class="container-fluid">
       <HeroSection />
       <Cards />
-      <News />
+ 
+      <HarryInterview />
+      <Events />
       {/* <Footer /> */}
     </div>
   );

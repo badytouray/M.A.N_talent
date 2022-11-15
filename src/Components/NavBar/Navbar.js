@@ -44,25 +44,25 @@ function Navbar() {
 
   return (
     <>
-      <nav className="container-fluid navbar navbar-expand-lg ">
-        <div className="navbar
+      <nav class=" navbar navbar-expand-lg ">
+        <div class="navbar
         ">
-          <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+          <Link to="/" class="navbar-logo" onClick={closeMobileMenu}>
           M.A.N
             <i class="fab fa-typo3" />
           </Link>
-          <div className="menu-icon" onClick={handleClick}>
-            <i className={click ? "fas fa-times" : "fas fa-bars"} />
+          <div class="menu-icon" onClick={handleClick}>
+            <i class={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
-          <ul className={click ? "nav-menu active" : "nav-menu"}>
-            <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+          <ul class={click ? "nav-menu active" : "nav-menu"}>
+            <li class="nav-item">
+              <Link to="/" class="nav-links" onClick={closeMobileMenu}>
                 Home
               </Link>
             </li>
             
-            <li className="nav-item">
-              <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
+            <li class="nav-item">
+              <Link to="/about" class="nav-links" onClick={closeMobileMenu}>
                 About
               </Link>
             </li>
@@ -75,30 +75,58 @@ function Navbar() {
                 News
               </Link> 
             </li>*/}
-            <li className="nav-item">
+               <li class="nav-item">
+              <Link
+                to="/interviews"
+                class="nav-links"
+                onClick={closeMobileMenu}
+              >
+                Interviews
+              </Link>
+            </li>
+               <li class="nav-item">
+              <Link
+                to="/events"
+                class="nav-links"
+                onClick={closeMobileMenu}
+              >
+                Events
+              </Link>
+            </li>
+            <li class="nav-item">
               <Link
                 to="/artists"
-                className="nav-links"
+                class="nav-links"
                 onClick={closeMobileMenu}
               >
                 Artists
               </Link>
             </li>
-            <li className="nav-item">
+         
+            <li class="nav-item">
+              <Link
+                to="/artists"
+                class="nav-links"
+                onClick={closeMobileMenu}
+              >
+                
+              </Link>
+            </li>
+           {/* <li class="nav-item">
               <Link
                 to="/djs"
-                className="nav-links"
+                class="nav-links"
                 onClick={closeMobileMenu}
               >
                 DJs
               </Link>
             </li>
-            {/* <li
+            <li
             className='nav-item'
             onMouseEnter={onMouseEnter}
             onMouseLeave={onMouseLeave}
           >
-            <Link
+             <Link
               to="/services"
               className='nav-links'
               onClick={closeMobileMenu}
@@ -120,7 +148,7 @@ function Navbar() {
             <li>
               <Link
                 to="/contact-us"
-                className="nav-links-mobile"
+                class="nav-links-mobile"
                 onClick={closeMobileMenu}
               >
                 Contact Us

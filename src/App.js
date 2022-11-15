@@ -19,6 +19,11 @@ import News from "./Components/News/News/News";
 import Artists from "./Components/Entertainers/Artists";
 import BobbieT from "./Components/Entertainers/Djs/BobbieT";
 import DJS from "./Components/Entertainers/Djs";
+import WebDesign from "./Components/WebDesign/WebDesign";
+import Events from "./Components/Events/Events";
+
+import HarryInterview from "./Components/ExclusiveInterviews/HarryInterview/HarryInterview";
+import Interview from "./Components/Interview/Interview";
 // import Development from "./Components/Development/Development";
 
 
@@ -44,6 +49,12 @@ function App() {
           <Route path="/artists" component={Artists} />
           <Route path="/bobbie-t" component={BobbieT} />
           <Route path="/djs" component={DJS} />
+          <Route path="/web-design" component={WebDesign} />
+          <Route path="/events" component={Events} />
+          <Route path="/harry-shotta-interview" component={HarryInterview} />
+          <Route path="/interviews" component={Interview} />
+       
+  
           {/* <Route path="/artist-development" component={Development} /> */}
         </Switch>
       </Router>

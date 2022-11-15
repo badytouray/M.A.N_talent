@@ -3,7 +3,7 @@ import "./News.css";
 import NewsItem from "./NewsItems";
 
 import MarketingPic from "../../../brazil.jpg";
-import Footer from "../../Footer/Footer";
+
 
 
 
@@ -31,7 +31,6 @@ function News() {
         </div>
       </div>
     </div>
-    <Footer />
     </>
   );
 }
