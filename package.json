@@ -1,7 +1,8 @@
 {
-  "name": "WPMM - Web | Print | Media & Marketing",
+  "name": "Music All Night",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://badytouray.github.io/m.a.n_talent",
   "dependencies": {
     "-": "^0.0.1",
     "@fortawesome/fontawesome-free": "^5.15.3",
@@ -41,6 +42,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -63,6 +65,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "webpack": "^4.44.2"
   }
 }
