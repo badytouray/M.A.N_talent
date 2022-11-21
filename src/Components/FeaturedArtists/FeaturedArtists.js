@@ -1,8 +1,8 @@
 import React from "react";
-import "./Services.css";
-import "../Cards/Cards.css";
+import "./FeaturedArtists.css";
+// import "../Cards/Cards.css";
 // import CardItem from "../CardItem";
-import ServicesItems from "./ServicesItems";
+import FeaturedArtistsItem from "./FeaturedArtistsItem.js";
 import WebDesignPic from "../../WebDesignPic.jpeg";
 import MarketingPic from "../../MarketingPic.jpg";
 import Logo from "../../Logo.jpg";
@@ -11,16 +11,16 @@ import Video from "../../video.jpeg";
 import Photography from "../../Photography.jpeg";
 import Footer from "../Footer/Footer";
 
-function Services() {
+function FeaturedArtists() {
   return (
     <>
     <div className="cards">
-      <h1>Our Services</h1>
+      <h1>Our Featured artist</h1>
       <h2>Want to grow your business? Want to save Time? Want to save money? Contact us today! </h2>
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
-          <ServicesItems
+          <FeaturedArtistsItem
               src={MarketingPic}
               label="Artist Development"
               text="Social media what?."
@@ -29,14 +29,14 @@ function Services() {
             />
             </ul>
             <ul className="cards__items">
-            <ServicesItems
+            <FeaturedArtistsItem
               src={WebDesignPic}
               label="Web design"
               text="Website Design"
               path="/web-design"
               info="Creating stunning professional user friendly bispoke website thats that keeps customers coming back"
              />
-            <ServicesItems
+            <FeaturedArtistsItem
               src={Logo}
               label="Graphic Design"
               text="Graphic Design"
@@ -44,13 +44,7 @@ function Services() {
               info="Want to save time? We create designs according to you vision so you can focus on growth"
             />
             </ul>
-            <ul className="cards__items">
-   
-      
-
-          
-      
-          </ul>
+            
         </div>
       </div>
     </div>
@@ -59,4 +53,4 @@ function Services() {
   );
 }
 
-export default Services;
+export default FeaturedArtists;

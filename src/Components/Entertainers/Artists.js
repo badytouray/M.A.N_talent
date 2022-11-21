@@ -13,7 +13,7 @@ import Footer from '../Footer/Footer';
 function Artists() {
   return (
     <>
-    <h1>Music All Night Artists</h1>
+    <h1>Music All Night Roster</h1>
     <h3 class="text-center">Artists | DJs | Entertainers</h3>
     <div class="row row-cols-1 row-cols-md-3 g-4 m-4">
 
@@ -70,9 +70,9 @@ function Artists() {
       <div class="card-body">
         <h5 class="card-title">DJ Bobbie TEE</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-        <a href="/bobbie-t">
+        {/* <a href="/bobbie-t">
         <button type="button" class="btn btn-primary m-4">More info</button>
-        </a> 
+        </a>  */}
         <a href="/contact-us">
         <button type="button" class="btn btn-success">Book Now</button>
         </a>
@@ -132,9 +132,9 @@ function Artists() {
 
   <div class="col">
     <div class="card">
-      <img src={Casso} class="card-img-top" alt="..."/>
+      <img src={Bobbie} class="card-img-top" alt="..."/>
       <div class="card-body">
-        <h5 class="card-title">Casso Blax</h5>
+        <h5 class="card-title">Machanix</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
         {/* <a href="/bobbie-t">
         <button type="button" class="btn btn-primary m-4">More info</button>

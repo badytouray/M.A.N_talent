@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Services.css"
+import "./FeaturedArtists.css"
 
-function ServicesItems(props) {
+function FeaturedArtistsItem(props) {
   return (
     <>
       <li className="cards__item">
@@ -25,4 +25,4 @@ function ServicesItems(props) {
   );
 }
 
-export default ServicesItems;
+export default FeaturedArtistsItem

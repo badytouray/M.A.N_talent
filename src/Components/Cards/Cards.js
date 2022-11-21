@@ -1,7 +1,9 @@
 import React from "react";
 import "./Cards.css";
 import CardItem from "./CardItem";
-import MarketingPic from "../../MarketingPic.jpg";
+import Bady from "../../bady.png";
+import Bobbie from "../../bobbie.png";
+import Beano from "../../beano.png";
 import Flyers from "../../flyers.jpeg";
 import WebDesignPic from "../../WebDesignPic.jpeg";
 
@@ -13,25 +15,25 @@ function Cards() {
       <h3>We provide beauty treatments to suit your needs, either by attending our treatment room or we visit your home.</h3>
       <div className="cards__container">
         <div className="cards__wrapper">
-      <h1>OUR SERVICES</h1>
+      <h1>OUR FEATURED ARTISTS</h1>
           <ul className="cards__items">
           <CardItem
-              src={MarketingPic}
-              text="Artist Development uim  either by attending our treatment room or we visit your home"
-              label="Artist Development"
-              path="/artist-development"
+              src={Bobbie}
+              text="Book enterrtainters for your special event, private parties, weddings and more Entertainers gg gfve  either by attending our treatment room or we visit your home"
+              label="Bobbie Tee"
+              path="/music-all-night-artists"
             />
           <CardItem
-              src={WebDesignPic}
+              src={Bady}
               text="Book enterrtainters for your special event, private parties, weddings and more Entertainers gg gfve  either by attending our treatment room or we visit your home"
-              label="Event Planner"
-              path="/web-design"
+              label="Bady"
+              path="/music-all-night-artists"
             />
             <CardItem
-              src={Flyers}
-              text="Booking djs sdd ggg  either by attending our treatment room or we visit your home "
-              label="Entertainers" 
-              path="/artists"
+              src={Beano}
+              text="Book enterrtainters for your special event, private parties, weddings and more Entertainers gg gfve  either by attending our treatment room or we visit your home"
+              label="Beano" 
+              path="/music-all-night-artists"
             />          
           </ul>
         </div>

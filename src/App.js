@@ -3,8 +3,6 @@ import Navbar from "./Components/NavBar/Navbar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 import Home from "./Components/Pages/Home";
-import Services from "./Components/Services/Services";
-// import SignUp from "./Components/Pages/SignUp";
 import FAQ from "./Components/Faq/index";
 import Form from "./Components/Form/Form";
 import ContactUs from "./Components/ContactUs/index";
@@ -13,9 +11,9 @@ import AboutUs from "./Components/AboutUs/AboutUs";
 import TermsOfService from "./Components/TermsofService/TermsOfService";
 import Location from "./Components/Location/Location";
 import Testimonials from "./Components/Testimonials/Testimonials";
-// import Media from "./Components/Media/Media";
+
 import News from "./Components/News/News/News";
-// import Launch from "./Components/News/Articles/Launch/Launch";
+
 import Artists from "./Components/Entertainers/Artists";
 import BobbieT from "./Components/Entertainers/Djs/BobbieT";
 import DJS from "./Components/Entertainers/Djs";
@@ -24,7 +22,9 @@ import Events from "./Components/Events/Events";
 
 import HarryInterview from "./Components/ExclusiveInterviews/HarryInterview/HarryInterview";
 import Interview from "./Components/Interview/Interview";
-// import Development from "./Components/Development/Development";
+import FixrEvents from "./Components/FixrEvents/FixrEvents";
+import FeaturedArtists from "./Components/FeaturedArtists/FeaturedArtists";
+
 
 
 function App() {
@@ -36,7 +36,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/about" component={AboutUs} />
-          <Route path="/services" component={Services} />
+          <Route path="/music-ll-night-featured-artist" component={FeaturedArtists} />
           {/* <Route path="/media" component={Media} /> */}
           <Route path="/faq" component={FAQ} />
           <Route path="/sign-up" component={Form} />
@@ -46,13 +46,14 @@ function App() {
           <Route path="/testimonials" component={Testimonials} />
           <Route path="/news" component={News} />
           {/* <Route path="/launch" component={Launch} /> */}
-          <Route path="/artists" component={Artists} />
+          <Route path="/music-all-night-artists" component={Artists} />
           <Route path="/bobbie-t" component={BobbieT} />
           <Route path="/djs" component={DJS} />
           <Route path="/web-design" component={WebDesign} />
-          <Route path="/events" component={Events} />
+          <Route path="/music-all-night-events" component={Events} />
           <Route path="/harry-shotta-interview" component={HarryInterview} />
           <Route path="/interviews" component={Interview} />
+          {/* <Route path="/" component={FixrEvents} /> */}
        
   
           {/* <Route path="/artist-development" component={Development} /> */}

@@ -6,10 +6,7 @@ import Bady from "../../bady.png";
 import Beano from "../../beano.png";
 import Jovivaa from "../../jovivaa.png";
 import Footer from '../Footer/Footer';
-import { Helmet } from 'react-helmet';
-
-
-
+      
 function Events(props) {
 const [isBuying, setIsBuying] = useState(false);
 const [isBuying1, setIsBuying1] = useState(false);
@@ -20,6 +17,7 @@ const [isBuying3, setIsBuying3] = useState(false);
     <>
     <h1>Upcoming Events</h1>
     <h3 class="text-center">Brighton | Eastbourne | Bristol</h3>
+
     <div class="row row-cols-1 row-cols-md-4 g-4 m-4">
 
   <div class="col">
@@ -97,7 +95,6 @@ const [isBuying3, setIsBuying3] = useState(false);
   
 </div>
 
-<Helmet href="https://web-cdn.fixr.co/scripts/fixr-shop-widget.v1.min.js"></Helmet>
 <Footer />
 </>
   )

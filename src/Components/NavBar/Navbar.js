@@ -75,7 +75,7 @@ function Navbar() {
                 News
               </Link> 
             </li>*/}
-               <li class="nav-item">
+               {/* <li class="nav-item">
               <Link
                 to="/interviews"
                 class="nav-links"
@@ -83,10 +83,10 @@ function Navbar() {
               >
                 Interviews
               </Link>
-            </li>
+            </li> */}
                <li class="nav-item">
               <Link
-                to="/events"
+                to="/music-all-night-events"
                 class="nav-links"
                 onClick={closeMobileMenu}
               >
@@ -95,7 +95,7 @@ function Navbar() {
             </li>
             <li class="nav-item">
               <Link
-                to="/artists"
+                to="/music-all-night-artists"
                 class="nav-links"
                 onClick={closeMobileMenu}
               >
