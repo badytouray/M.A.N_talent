@@ -5,6 +5,7 @@ import Map from '../Map/Maps'
 import emailjs from 'emailjs-com';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Bobbie from "../../bobbie.png"
 // import DateTime from "../DateTimePicker/DateTimePicker";
 // import DateComponent from '../DatePicker/DatePickerComponent';
 // import DateTimePicker from '../DateTimePicker/DateTimePicker';
@@ -105,14 +106,16 @@ emailjs.sendForm('service_3iuzoor', 'template_4s132rl', e.target, 'user_FaUBF1FO
             <div className="col-75">
               <select name="subject">
                 <option disabled selected>Select a subject</option>
-                <option value="Bobbie T">Bobbie T</option>
+                <option value="Bobbie T" src={Bobbie} height="30px" width="30px">Bobbie T</option>
                 <option value="Zebberz">MC Zebberz</option>
                 <option value="Bady">DJ Bady</option>
-                <option value="Bady">DJ Beano</option>
-                <option value="Bady">Jovivaa</option>
-                <option value="Event planning">Event planning</option>
-                <option value="Marketing">Video production</option>
-                <option value="Film or Photography">Distribution</option>
+                <option value="DJ Beano">DJ Beano</option>
+                <option value="DJ Skillz London">DJ Skillz London</option>
+                <option value="Jovivaa">Jovivaa</option>
+                <option value="DJ Monca Lins">DJ Monica Lins</option>
+                <option value="Stitch & Joey Init">Stitch & Joey Init</option>
+              {/*   <option value="Marketing">Video production</option>
+                <option value="Film or Photography">Distribution</option> */}
               </select>
             </div>
           </div>

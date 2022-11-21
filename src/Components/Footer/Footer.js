@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <div className="footer-container">
+    <div className="footer-container container-fluid">
       {/* <section className="footer-subscription">
         <p className="footer-subscription-heading">
           Join our newsletter to be the first to recieve our latest deals.
@@ -27,23 +27,23 @@ function Footer() {
       </section> */}
       <div class="footer-links">
         <div className="footer-link-wrapper">
-          <div class="footer-link-items">
+          {/* <div class="footer-link-items">
             <h2>About M.A.N</h2>
             <Link to="/testimonials">Testimonials</Link>
             <Link to="/">Covid-19 Policy</Link>
             <Link to="/terms-of-service">Terms of Service</Link>
-          </div>
-          <div class="footer-link-items">
+          </div> */}
+          {/* <div class="footer-link-items">
             <h2>Contact Us</h2>
             <Link to="/contact-us">Contact</Link>
             <Link to="/faq">FAQ</Link>
             <Link to="/location">Location</Link>
-          </div>
+          </div> */}
         </div>
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
             <h2>Social Media</h2>
-            <Link to="/https://www.instagram.com/badylondon">Instagram</Link>
+            <Link to="/https://www.instagram.com/music__all__night">Instagram</Link>
             <Link to="/https://www.facebook.com/badylondonn">Facebook</Link>
             <Link to="/https://www.twitter.com/badylondonn">Twitter</Link>
           </div>
