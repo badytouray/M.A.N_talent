@@ -12,7 +12,7 @@ function Cards() {
   return (
     <div className="cards">
       <h2>Welcome to WPMM - Web | Print | Media & Marketing</h2>
-      <h3>We provide beauty treatments to suit your needs, either by attending our treatment room or we visit your home.</h3>
+      <h3 class="text-center">We provide beauty treatments to suit your needs, either by attending our treatment room or we visit your home.</h3>
       <div className="cards__container">
         <div className="cards__wrapper">
       <h1>OUR FEATURED ARTISTS</h1>
