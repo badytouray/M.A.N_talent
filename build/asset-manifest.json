@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/m.a.n_talent/static/css/main.cd8e4360.chunk.css",
-    "main.js": "/m.a.n_talent/static/js/main.57f88a24.chunk.js",
-    "main.js.map": "/m.a.n_talent/static/js/main.57f88a24.chunk.js.map",
+    "main.css": "/m.a.n_talent/static/css/main.930a5ad4.chunk.css",
+    "main.js": "/m.a.n_talent/static/js/main.eabc9386.chunk.js",
+    "main.js.map": "/m.a.n_talent/static/js/main.eabc9386.chunk.js.map",
     "runtime-main.js": "/m.a.n_talent/static/js/runtime-main.51b5f025.js",
     "runtime-main.js.map": "/m.a.n_talent/static/js/runtime-main.51b5f025.js.map",
     "static/css/2.9c065b63.chunk.css": "/m.a.n_talent/static/css/2.9c065b63.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.a0f53934.chunk.js.map": "/m.a.n_talent/static/js/2.a0f53934.chunk.js.map",
     "index.html": "/m.a.n_talent/index.html",
     "static/css/2.9c065b63.chunk.css.map": "/m.a.n_talent/static/css/2.9c065b63.chunk.css.map",
-    "static/css/main.cd8e4360.chunk.css.map": "/m.a.n_talent/static/css/main.cd8e4360.chunk.css.map",
+    "static/css/main.930a5ad4.chunk.css.map": "/m.a.n_talent/static/css/main.930a5ad4.chunk.css.map",
     "static/js/2.a0f53934.chunk.js.LICENSE.txt": "/m.a.n_talent/static/js/2.a0f53934.chunk.js.LICENSE.txt",
     "static/media/Logo.a805da41.jpg": "/m.a.n_talent/static/media/Logo.a805da41.jpg",
     "static/media/MarketingPic.01fd1522.jpg": "/m.a.n_talent/static/media/MarketingPic.01fd1522.jpg",
@@ -23,7 +23,7 @@
     "static/media/brazil.e48d773b.jpg": "/m.a.n_talent/static/media/brazil.e48d773b.jpg",
     "static/media/casso.9b5102c5.png": "/m.a.n_talent/static/media/casso.9b5102c5.png",
     "static/media/flyers.523bbd72.jpeg": "/m.a.n_talent/static/media/flyers.523bbd72.jpeg",
-    "static/media/HeroSection.css": "/m.a.n_talent/static/media/harry.e17f03bb.png",
+    "static/media/harry.e17f03bb.png": "/m.a.n_talent/static/media/harry.e17f03bb.png",
     "static/media/jovivaa.cc578882.png": "/m.a.n_talent/static/media/jovivaa.cc578882.png",
     "static/media/App.css": "/m.a.n_talent/static/media/wax.2d9b967d.jpg",
     "static/media/monica.959e84c0.png": "/m.a.n_talent/static/media/monica.959e84c0.png",
@@ -33,13 +33,14 @@
     "static/media/stitch.dd370809.png": "/m.a.n_talent/static/media/stitch.dd370809.png",
     "static/media/tshirt.58adb78f.jpeg": "/m.a.n_talent/static/media/tshirt.58adb78f.jpeg",
     "static/media/video.fa4c888c.jpeg": "/m.a.n_talent/static/media/video.fa4c888c.jpeg",
+    "static/media/HeroSection.css": "/m.a.n_talent/static/media/website.ea3b87cd.png",
     "static/media/zebberz.7b00c88f.png": "/m.a.n_talent/static/media/zebberz.7b00c88f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.51b5f025.js",
     "static/css/2.9c065b63.chunk.css",
     "static/js/2.a0f53934.chunk.js",
-    "static/css/main.cd8e4360.chunk.css",
-    "static/js/main.57f88a24.chunk.js"
+    "static/css/main.930a5ad4.chunk.css",
+    "static/js/main.eabc9386.chunk.js"
   ]
 }
