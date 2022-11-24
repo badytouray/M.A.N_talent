@@ -15,7 +15,7 @@ function Artists() {
     <>
     <h1>Music All Night Roster</h1>
     <h3 class="text-center">Artists | DJs | Entertainers</h3>
-    <div class="row row-cols-1 row-cols-md-3 g-4 m-4">
+    <div class="row row-cols-1 row-cols-md-4 g-4 m-4">
 
   <div class="col">
     <div class="card">
@@ -54,9 +54,9 @@ function Artists() {
       <div class="card-body">
         <h5 class="card-title">Jovivaa (Afro-beats Artist)</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-        {/* <a href="/bobbie-t">
+        <a href="/music-all-night-artist-jovivaa">
         <button type="button" class="btn btn-primary m-4">More info</button>
-        </a> */}
+        </a>
         <a href="/contact-us">
         <button type="button" class="btn btn-success">Book Now</button>
         </a>
@@ -70,9 +70,9 @@ function Artists() {
       <div class="card-body">
         <h5 class="card-title">DJ Bobbie TEE</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-        {/* <a href="/bobbie-t">
+        <a href="/music-all-night-artists-bobbie-t">
         <button type="button" class="btn btn-primary m-4">More info</button>
-        </a>  */}
+        </a> 
         <a href="/contact-us">
         <button type="button" class="btn btn-success">Book Now</button>
         </a>
@@ -162,6 +162,53 @@ function Artists() {
     </div>
   </div>
 
+  <div class="col">
+    <div class="card">
+      <img src={Stitch} class="card-img-top" alt="..."/>
+      <div class="card-body">
+        <h5 class="card-title">Lenzez</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        {/* <a href="/bobbie-t">
+        <button type="button" class="btn btn-primary m-4">More info</button>
+        </a> */}
+        <a href="/contact-us">
+        <button type="button" class="btn btn-success">Book Now</button>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card">
+      <img src={Stitch} class="card-img-top" alt="..."/>
+      <div class="card-body">
+        <h5 class="card-title">Bakez</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        {/* <a href="/bobbie-t">
+        <button type="button" class="btn btn-primary m-4">More info</button>
+        </a> */}
+        <a href="/contact-us">
+        <button type="button" class="btn btn-success">Book Now</button>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card">
+      <img src={Stitch} class="card-img-top" alt="..."/>
+      <div class="card-body">
+        <h5 class="card-title">Ju5 Bonez</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        <a href="/music-all-night-artist-ju5-bonez">
+        <button type="button" class="btn btn-primary m-4">More info</button>
+        </a>
+        <a href="/contact-us">
+        <button type="button" class="btn btn-success">Book Now</button>
+        </a>
+      </div>
+    </div>
+  </div>
 
 </div>
 

@@ -1,6 +1,7 @@
 import React from 'react'
 import Bobbie from "../../../bobbie.png";
 import Footer from '../../Footer/Footer';
+import { SocialIcon } from 'react-social-icons';
 
 function BobbieT() {
   return (
@@ -13,8 +14,14 @@ function BobbieT() {
       <div class="card-body">
       <img src={Bobbie} class="card-img-top" style={{width: "100%"}} alt="..."/>
        <br />
+       <br />
         <a href="/contact-us">
         <button type="button" class="btn btn-success m-2">Book Now</button>
+        </a>
+        <a>
+        <SocialIcon target="_blank" url="https://www.instagram.com/bobbieteeuk" style={{height: "45px",width: "50px", margin: "5px"}} />
+        <SocialIcon target="_blank"url="https://www.facebook.com/profile.php?id=100008513676412" style={{height: "45px",width: "50px", margin: "5px"}} />
+        <SocialIcon target="_blank"url="https://youtube.com/jovivaalove" style={{height: "45px",width: "50px", margin: "5px"}} />
         </a>
       </div>
     </div>
