@@ -94,12 +94,14 @@ function Jovivaa() {
 <Fade left>
 
 <div class="text-center">
-<p class="fs-2 text-center m-4 row-cols-lg-3">Jovivaa Music video's</p>
-<iframe width="500px" height="600px" style={{margin:"10px", padding: "10px"}} src="https://www.youtube.com/embed/HT3_MUyK_G0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="600px" style={{margin:"10px", padding: "10px"}} src="https://www.youtube.com/embed/wtGobuaOm3s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="600px" style={{margin:"10px", padding: "10px"}} src="https://www.youtube.com/embed/dSwcvJx5aGk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p class="fs-2 text-center m-4 row-cols-lg-4">Jovivaa Music video's</p>
+<iframe width="600px" height="600px" style={{margin:"10px", padding: "15px"}} src="https://www.youtube.com/embed/HT3_MUyK_G0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="600" height="600px" style={{margin:"10px", padding: "15px"}} src="https://www.youtube.com/embed/wtGobuaOm3s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="600" height="600px" style={{margin:"10px", padding: "15px"}} src="https://www.youtube.com/embed/dSwcvJx5aGk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 </Fade>
+
+
 <div class="text-center m-3">
     <a src="/music-all-night-artists">
     <button type="button"class="btn btn-lg btn-outline-danger ">Back to artist's</button>
