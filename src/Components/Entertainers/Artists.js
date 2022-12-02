@@ -23,12 +23,13 @@ function Artists() {
       <div class="card-body">
         <h5 class="card-title">MC Zebberz</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a.</p>
-        {/* <a href="/bobbie-t">
-        <button type="button" class="btn btn-primary m-4">More info</button>
-        </a> */}
-        <a href="/contact-us">
-        <button type="button" class="btn btn-success">Book Now</button>
+        
+        <div class="d-grid gap-2 col-4 mx-auto">
+<a href="/music-all-night-artist-jovivaa">
+        <button  type="button" class="btn btn-lg btn-primary">More info</button>
         </a>
+        </div>
+
       </div>
     </div>
   </div>
@@ -39,12 +40,9 @@ function Artists() {
       <div class="card-body">
         <h5 class="card-title">DJ Bady</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-        {/* <a href="/bobbie-t">
-        <button type="button" class="btn btn-primary m-4">More info</button>
-        </a> */}
-        <a href="/contact-us">
-        <button type="button" class="btn btn-success">Book Now</button>
-        </a>
+        <div class="d-grid gap-2">
+        <button type="button" class="btn btn-primary">More info</button>
+        </div>
       </div>
     </div>
   </div>
@@ -54,12 +52,11 @@ function Artists() {
       <div class="card-body">
         <h5 class="card-title">Jovivaa (Afro-beats Artist)</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-        <a href="/music-all-night-artist-jovivaa">
-        <button type="button" class="btn btn-primary m-4">More info</button>
+        <div class="d-grid gap-2 col-4 mx-auto">
+<a href="/music-all-night-artist-jovivaa">
+        <button  type="button" class="btn btn-lg btn-primary">More info</button>
         </a>
-        <a href="/contact-us">
-        <button type="button" class="btn btn-success">Book Now</button>
-        </a>
+      </div>
       </div>
     </div>
   </div>
