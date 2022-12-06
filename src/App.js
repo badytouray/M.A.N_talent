@@ -32,7 +32,7 @@ import Ju5Bonez from "./Components/Entertainers/Artists/Ju5Bonez";
 function App() {
   return (
     <>
-      <Router>
+      <Router basename="/m.a.n_talent">
         <ScrollToTop />
         <Navbar />
         <Switch>
