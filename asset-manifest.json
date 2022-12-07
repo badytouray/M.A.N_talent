@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/m.a.n_talent/static/css/main.930a5ad4.chunk.css",
-    "main.js": "/m.a.n_talent/static/js/main.eabc9386.chunk.js",
-    "main.js.map": "/m.a.n_talent/static/js/main.eabc9386.chunk.js.map",
-    "runtime-main.js": "/m.a.n_talent/static/js/runtime-main.51b5f025.js",
-    "runtime-main.js.map": "/m.a.n_talent/static/js/runtime-main.51b5f025.js.map",
+    "main.css": "/m.a.n_talent/static/css/main.a1a3804c.chunk.css",
+    "main.js": "/m.a.n_talent/static/js/main.e7ba4a90.chunk.js",
+    "main.js.map": "/m.a.n_talent/static/js/main.e7ba4a90.chunk.js.map",
+    "runtime-main.js": "/m.a.n_talent/static/js/runtime-main.16e08c49.js",
+    "runtime-main.js.map": "/m.a.n_talent/static/js/runtime-main.16e08c49.js.map",
     "static/css/2.9c065b63.chunk.css": "/m.a.n_talent/static/css/2.9c065b63.chunk.css",
-    "static/js/2.a0f53934.chunk.js": "/m.a.n_talent/static/js/2.a0f53934.chunk.js",
-    "static/js/2.a0f53934.chunk.js.map": "/m.a.n_talent/static/js/2.a0f53934.chunk.js.map",
+    "static/js/2.5546956f.chunk.js": "/m.a.n_talent/static/js/2.5546956f.chunk.js",
+    "static/js/2.5546956f.chunk.js.map": "/m.a.n_talent/static/js/2.5546956f.chunk.js.map",
     "index.html": "/m.a.n_talent/index.html",
     "static/css/2.9c065b63.chunk.css.map": "/m.a.n_talent/static/css/2.9c065b63.chunk.css.map",
-    "static/css/main.930a5ad4.chunk.css.map": "/m.a.n_talent/static/css/main.930a5ad4.chunk.css.map",
-    "static/js/2.a0f53934.chunk.js.LICENSE.txt": "/m.a.n_talent/static/js/2.a0f53934.chunk.js.LICENSE.txt",
+    "static/css/main.a1a3804c.chunk.css.map": "/m.a.n_talent/static/css/main.a1a3804c.chunk.css.map",
+    "static/js/2.5546956f.chunk.js.LICENSE.txt": "/m.a.n_talent/static/js/2.5546956f.chunk.js.LICENSE.txt",
     "static/media/Logo.a805da41.jpg": "/m.a.n_talent/static/media/Logo.a805da41.jpg",
     "static/media/MarketingPic.01fd1522.jpg": "/m.a.n_talent/static/media/MarketingPic.01fd1522.jpg",
     "static/media/Photography.087e0e18.jpeg": "/m.a.n_talent/static/media/Photography.087e0e18.jpeg",
@@ -37,10 +37,10 @@
     "static/media/zebberz.7b00c88f.png": "/m.a.n_talent/static/media/zebberz.7b00c88f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.51b5f025.js",
+    "static/js/runtime-main.16e08c49.js",
     "static/css/2.9c065b63.chunk.css",
-    "static/js/2.a0f53934.chunk.js",
-    "static/css/main.930a5ad4.chunk.css",
-    "static/js/main.eabc9386.chunk.js"
+    "static/js/2.5546956f.chunk.js",
+    "static/css/main.a1a3804c.chunk.css",
+    "static/js/main.e7ba4a90.chunk.js"
   ]
 }
