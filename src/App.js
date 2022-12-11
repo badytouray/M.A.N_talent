@@ -15,8 +15,7 @@ import Testimonials from "./Components/Testimonials/Testimonials";
 import News from "./Components/News/News/News";
 
 import Artists from "./Components/Entertainers/Artists";
-import BobbieT from "./Components/Entertainers/Djs/BobbieT";
-import DJS from "./Components/Entertainers/Djs";
+import BobbieT from "./Components/Entertainers/Artists/BobbieT";
 import WebDesign from "./Components/WebDesign/WebDesign";
 import Events from "./Components/Events/Events";
 
@@ -24,13 +23,15 @@ import HarryInterview from "./Components/ExclusiveInterviews/HarryInterview/Harr
 import Interview from "./Components/Interview/Interview";
 import FixrEvents from "./Components/FixrEvents/FixrEvents";
 import FeaturedArtists from "./Components/FeaturedArtists/FeaturedArtists";
+import Jovivaa from "./Components/Entertainers/Artists/Jovivaa";
+import Ju5Bonez from "./Components/Entertainers/Artists/Ju5Bonez";
 
 
 
 function App() {
   return (
     <>
-      <Router>
+      <Router basename="/m.a.n_talent">
         <ScrollToTop />
         <Navbar />
         <Switch>
@@ -47,8 +48,10 @@ function App() {
           <Route path="/news" component={News} />
           {/* <Route path="/launch" component={Launch} /> */}
           <Route path="/music-all-night-artists" component={Artists} />
-          <Route path="/bobbie-t" component={BobbieT} />
-          <Route path="/djs" component={DJS} />
+          <Route path="/music-all-night-artists-bobbie-t" component={BobbieT} />
+          <Route path="/music-all-night-artist-jovivaa" component={Jovivaa} />
+          <Route path="/music-all-night-artist-ju5-bonez" component={Ju5Bonez} />
+      
           <Route path="/web-design" component={WebDesign} />
           <Route path="/music-all-night-events" component={Events} />
           <Route path="/harry-shotta-interview" component={HarryInterview} />
@@ -62,5 +65,6 @@ function App() {
     </>
   );
 }
+// , document.getElementById("root")
 
 export default App;
